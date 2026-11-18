@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf9f5">
+  <meta name="description" content="Kaibin Guo is a graduate student at Sun Yat-sen University researching systems for serving language models and AI agents.">
+  <title>Kaibin Guo · Sun Yat-sen University</title>
+  <style>
+    :root { color-scheme: light; --paper: #faf9f5; --ink: #242925; --muted: #535b54; --green: #24553e; --rule: #c9cfc6; --serif: 'STIX Two Text', Georgia, 'Times New Roman', serif; --sans: 'Inter', system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 1.055rem/1.65 var(--sans); }
+    main { width: min(100% - 3rem, 48rem); margin: clamp(2rem, 6vw, 5.2rem) auto 3rem; border-top: 2px solid var(--green); }
+    header { padding: clamp(2.3rem, 5vw, 3.8rem) 0 2.6rem; }
+    h1, h2, h3, p { margin: 0; }
+    h1, h3 { font-family: var(--serif); font-weight: 400; }
+    h1 { font-size: clamp(3.6rem, 8vw, 6.2rem); line-height: 1.04; letter-spacing: -.055em; }
+    .affiliation { margin-top: .65rem; color: var(--green); font-size: 1.04rem; }
+    .bio { margin-top: 1.55rem; max-width: 64ch; }
+    .links { display: flex; gap: .65rem 1.55rem; flex-wrap: wrap; margin-top: 1rem; }
+    a { color: var(--green); text-decoration: underline; text-underline-offset: .24em; text-decoration-color: #8a9f8f; }
+    a:hover { text-decoration-color: currentColor; }
+    a:focus-visible { outline: 2px solid var(--green); outline-offset: .25em; }
+    .links a { font-size: .94rem; }
+    section { border-top: 1px solid var(--rule); padding: 1.65rem 0 2rem; }
+    h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .13em; color: var(--muted); font-weight: 650; }
+    article { margin-top: 1.55rem; padding-left: 1.25rem; border-left: 3px solid #9aaf9b; }
+    .venue { color: var(--green); font-size: .9rem; font-weight: 650; }
+    h3 { margin: .38rem 0 .7rem; font-size: clamp(1.55rem, 3.2vw, 2.15rem); line-height: 1.16; letter-spacing: -.023em; text-wrap: pretty; }
+    .authors { color: var(--muted); font-size: .925rem; line-height: 1.65; }
+    .authors strong { font-weight: 650; color: var(--ink); }
+    .experience { margin: .9rem 0 0; padding-left: 1.2rem; }
+    .experience li + li { margin-top: .4rem; }
+    .summary { margin-top: .8rem; }
+    @media (max-width: 32rem) {
+      main { width: calc(100% - 2.4rem); margin-top: 1.4rem; }
+      header { padding-bottom: 2rem; }
+      article { padding-left: .9rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Kaibin Guo</h1>
+      <p class="affiliation">LLM systems · Agent serving</p>
+      <p class="bio">I’m Kaibin Guo, a master’s student at the School of Computer Science and Engineering, Sun Yat-sen University, where I amadvised by <a href="https://sse.sysu.edu.cn/teacher/159">Prof. Wuhui Chen</a>. My research focused on how to serve large language models and AI agents efficiently.</p>
+      <div class="links" aria-label="Contact and profile">
+        <a href="mailto:guokb@mail2.sysu.edu.cn">guokb@mail2.sysu.edu.cn</a>
+        <a href="https://github.com/Guodanding">GitHub</a>
+      </div>
+    </header>
+    <section aria-labelledby="experience">
+      <h2 id="experience">Experience</h2>
+      <ul class="experience">
+        <li><strong>2025–present</strong> · Master’s student, School of Computer Science and Engineering, Sun Yat-sen University</li>
+        <li><strong>Dec 2024 – Jun 2025</strong> · Research Intern, The Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://home.cse.ust.hk/~songguo/">Prof. Song Guo</a></li>
+        <li><strong>2021–2025</strong> · B.Eng., School of Software Engineering, Sun Yat-sen University</li>
+      </ul>
+    </section>
+    <section aria-labelledby="publications">
+      <h2 id="publications">Selected publications</h2>
+      <article>
+        <p class="venue">NeurIPS 2026 · Poster</p>
+        <h3 id="agentweave">AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition</h3>
+        <p class="authors"><strong>Kaibin Guo</strong>, Pengtu Li, Zicong Hong, Zhiyuan Fang, Wuhui Chen, Rachid Guerraoui, and Anne-Marie Kermarrec</p>
+        <div class="links">
+          <a href="https://arxiv.org/abs/2610.14804">Paper on arXiv</a>
+          <a href="https://github.com/Guodanding/agentweave">Code on GitHub</a>
+        </div>
+      </article>
+      <!-- <article>
+        <p class="venue">IEEE INFOCOM 2026</p>
+        <h3>Director: Accelerating Distributed MoE Serving via Online Proactive Expert Placement</h3>
+        <p class="authors">Qianli Liu, <strong>Kaibin Guo</strong>, Zicong Hong, Peng Li, Fahao Chen, Haodong Wang, Jian Lin, and Song Guo</p>
+        <div class="links"><a href="https://arxiv.org/abs/2607.08782">Paper on arXiv</a></div>
+      </article>
+      <article>
+        <p class="venue">IEEE INFOCOM 2026</p>
+        <h3>PPAI: Enabling Personalized LLM Agent Interoperability for Collaborative Edge Intelligence</h3>
+        <p class="authors">Zile Wang, Qianli Liu, <strong>Kaibin Guo</strong>, Haodong Wang, Jian Lin, Zicong Hong, and Song Guo</p>
+        <div class="links"><a href="https://arxiv.org/abs/2605.18067">Paper on arXiv</a></div>
+      </article> -->
+    </section>
+  </main>
+</body>
+</html>
